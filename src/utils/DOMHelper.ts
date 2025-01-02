@@ -1,4 +1,5 @@
 // SPDX-FileCopyrightText: 2023 Havs- och vattenmyndigheten
+// SPDX-FileCopyrightText: 2025 Försäkringskassan
 //
 // SPDX-License-Identifier: MIT
 
@@ -65,10 +66,10 @@ export const getJitsiLinkDiv = (jitsiUrl: string, config: Config): string => {
                 </td>
                 <td style="${tdStyles}">
                     <a
-                        aria-label="${localizedStrings.linkToMeeting}" 
-                        title="${localizedStrings.linkToMeeting}" 
-                        alt=${localizedStrings.linkToMeeting} 
-                        style="font-size: 12px;" 
+                        aria-label="${localizedStrings.linkToMeeting}"
+                        title="${localizedStrings.linkToMeeting}"
+                        alt=${localizedStrings.linkToMeeting}
+                        style="font-size: 12px;"
                         href="${jitsiUrl}">
                         ${jitsiUrl}
                     </a>
