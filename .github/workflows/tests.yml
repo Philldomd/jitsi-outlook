@@ -39,3 +39,6 @@ jobs:
       - name: Build
         run: |
           npm run build
+      - uses: actions/upload-artifact@v4
+        with:
+          path: package-lock.json
